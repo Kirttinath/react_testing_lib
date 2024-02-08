@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import TestId from "./TestId";
 import { render, screen, configure } from "@testing-library/react";
 
