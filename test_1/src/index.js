@@ -14,6 +14,7 @@ import Text from "./Text";
 import TestId from "./TestId";
 import DisplayValue from "./DisplayValue";
 import Title from "./Title";
+import AltText from "./AltText";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -28,8 +29,9 @@ root.render(
     <PlaceholderTest />
     <Text />
     <TestId/>
-    <DisplayValue /> */}
-    <Title />
+    <DisplayValue />
+    <Title /> */}
+    <AltText />
   </React.StrictMode>
 );
 
