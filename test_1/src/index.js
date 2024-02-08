@@ -8,6 +8,7 @@ import FunctionComp from "./FunctionComponent";
 import Role from "./Role";
 import CustomRole from "./CustomRole";
 import AllByRole from "./AllByRole";
+import LabelText from "./LabelText";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,8 +17,10 @@ root.render(
     <User />
     <FunctionComp />
     <Role />
-    <CustomRole /> */}
-    <AllByRole />
+    <CustomRole />
+
+    <AllByRole /> */}
+    <LabelText />
   </React.StrictMode>
 );
 
