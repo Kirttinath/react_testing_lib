@@ -1,5 +1,7 @@
 import TestId from "./TestId";
-import { render, screen } from "@testing-library/react";
+import { render, screen, configure } from "@testing-library/react";
+
+// configure({ testIdAttribute: "test1-id" });
 
 describe("getByTestId TESTs", () => {
   test("TEST-1", () => {
@@ -7,6 +9,11 @@ describe("getByTestId TESTs", () => {
     const res = screen.getByTestId("id1");
     expect(res).toBeInTheDocument();
   });
+  //   test("TEST-2", () => {
+  //     render(<TestId />);
+  //     const result = screen.getByTestId("1");
+  //     expect(result).toBeInTheDocument();
+  //   });
 });
 
 describe("getAllByTestId TESTs", () => {

@@ -9,6 +9,7 @@ const TestId = () => {
       <h3 data-testid="id2">Hiii</h3>
       <h3 data-testid="id2">Hiiii</h3>
       <h3 data-testid="id2">Hiiiii</h3>
+      <div test1-id="1">JEST</div>
     </div>
   );
 };
