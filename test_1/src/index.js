@@ -11,6 +11,7 @@ import AllByRole from "./AllByRole";
 import LabelText from "./LabelText";
 import PlaceholderTest from "./PlaceholderTest";
 import Text from "./Text";
+import TestId from "./TestId";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,8 +23,9 @@ root.render(
     <CustomRole />
     <AllByRole />
     <LabelText />
-    <PlaceholderTest /> */}
-    <Text />
+    <PlaceholderTest />
+    <Text /> */}
+    <TestId/>
   </React.StrictMode>
 );
 
