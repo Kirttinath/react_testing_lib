@@ -7,6 +7,7 @@ import User from "./User";
 import FunctionComp from "./FunctionComponent";
 import Role from "./Role";
 import CustomRole from "./CustomRole";
+import AllByRole from "./AllByRole";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,8 +15,9 @@ root.render(
     {/* <App />
     <User />
     <FunctionComp />
-    <Role /> */}
-    <CustomRole />
+    <Role />
+    <CustomRole /> */}
+    <AllByRole />
   </React.StrictMode>
 );
 
