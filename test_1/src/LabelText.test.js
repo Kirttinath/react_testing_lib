@@ -23,3 +23,19 @@ describe("getByLabelText", () => {
     expect(ckbopx).toBeInTheDocument();
   });
 });
+
+describe("getAllByLabelText", () => {
+  test("TEST-1", () => {
+    render(<LabelText />);
+    const lbl = screen.getAllByLabelText("user");
+
+    for (let i = 0; i < lbl.length; i++) {
+      expect(lbl[i]).toBeInTheDocument();
+    }
+  });
+  test("TEST-2", () => {
+    render(<LabelText />);
+    const ckbopx = screen.getAllByLabelText("Habit");
+    expect(ckbopx[1]).toBeInTheDocument();
+  });
+});
