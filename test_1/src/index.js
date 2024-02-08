@@ -13,6 +13,7 @@ import PlaceholderTest from "./PlaceholderTest";
 import Text from "./Text";
 import TestId from "./TestId";
 import DisplayValue from "./DisplayValue";
+import Title from "./Title";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -26,8 +27,9 @@ root.render(
     <LabelText />
     <PlaceholderTest />
     <Text />
-    <TestId/> */}
-    <DisplayValue />
+    <TestId/>
+    <DisplayValue /> */}
+    <Title />
   </React.StrictMode>
 );
 
