@@ -1,9 +1,10 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import App from "./App";
-
-test("set data check", () => {
-  render(<App />);
-  const element = screen.getByRole("textbox");
-  fireEvent.change(element, { target: { value: "b" } });
-  expect(element.value).toBe("btest");
+describe("Fire Event Check", () => {
+  test("button update check", () => {
+    render(<App />);
+    const buttn = screen.getByRole("button");
+    fireEvent.click(buttn);
+    expect(screen.getByText(/update data/i)).toBeInTheDocument();
+  });
 });
