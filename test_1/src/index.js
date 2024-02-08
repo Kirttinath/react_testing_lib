@@ -6,14 +6,16 @@ import reportWebVitals from "./reportWebVitals";
 import User from "./User";
 import FunctionComp from "./FunctionComponent";
 import Role from "./Role";
+import CustomRole from "./CustomRole";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* <App />
     <User />
-    <FunctionComp /> */}
-    <Role />
+    <FunctionComp />
+    <Role /> */}
+    <CustomRole />
   </React.StrictMode>
 );
 
