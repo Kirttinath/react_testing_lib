@@ -4,12 +4,14 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import User from "./User";
+import FunctionComp from "./FunctionComponent";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
     <User />
+    <FunctionComp />
   </React.StrictMode>
 );
 
