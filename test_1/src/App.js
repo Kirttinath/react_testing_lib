@@ -1,14 +1,17 @@
-/* eslint-disable jsx-a11y/alt-text */
-/* eslint-disable react/jsx-no-comment-textnodes */
-import logo from "./logo.svg";
 import "./App.css";
+import { useState } from "react";
 
 function App() {
+  const [data, setdata] = useState();
   return (
     <div className="App">
       <p>create react app</p>
-      <input type="text" placeholder="name" value={"kirtti"} />
-      <img title="React Logo" src={logo} />
+      <input
+        type="text"
+        value={data}
+        onChange={(e) => setdata(e.target.value + "test")}
+      />
+      {/* <img title="React Logo" src={logo} /> */}
     </div>
   );
 }
