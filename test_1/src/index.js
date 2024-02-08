@@ -5,13 +5,15 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import User from "./User";
 import FunctionComp from "./FunctionComponent";
+import Role from "./Role";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App />
     <User />
-    <FunctionComp />
+    <FunctionComp /> */}
+    <Role />
   </React.StrictMode>
 );
 
