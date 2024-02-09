@@ -17,6 +17,7 @@ import Title from "./Title";
 import AltText from "./AltText";
 import Assert from "./Assert";
 import QueryBy from "./QueryBy";
+import FindBy from "./FindBy";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -34,8 +35,9 @@ root.render(
     <DisplayValue />
     <Title />
     <AltText />
-    <Assert /> */}
-    <QueryBy />
+    <Assert />
+    <QueryBy /> */}
+    <FindBy />
   </React.StrictMode>
 );
 
